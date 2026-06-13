@@ -1,0 +1,30 @@
+# Environment
+.env
+env.local
+env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Uploads & temporary files
+uploads/
+!uploads/.gitkeep
+
+# Logs
+logs/
+*.log
+
+# Composer
+vendor/
+composer.lock
+
+# Cache
+*.cache
